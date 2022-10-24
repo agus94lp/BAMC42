@@ -4,16 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+    <title>Mi Pagina</title>
 </head>
 <body>
     <!--esta sincronizado con git-->
-    <h1>poniendo sdf titulo</h1>
-    <p>poniendosdf sdf parrafo</p>
+    <h1>Mi Página web</h1>
+    <h2>Intentando hacer una página web</h2>
     <main>
         <section>
+            <div class="sec-descripcion">
+                <p class="descripcion">Mi nombre es <strong>Agustin Diaz</strong>, soy de La Plata y tengo 28 años. 
+                    Estoy cursando Licenciatura en Sistemas en la UNLP, me gusta
+                    mucho el mundo de la informática, estoy constantemente capacitándome y me gustaría ser
+                    <i>Desarrollador Web Full Stack</i>.-
+                </p>
+            </div>
+            <div class="imagen-video">
+                <div class="imagen">
+                <img src="https://s.france24.com/media/display/0851897a-e20a-11eb-b871-005056a97e36/w:1280/p:1x1/07-10%20CA%20Foto%20Principal.jpeg" alt="argentina campeon copa amerca 2021" title="Argentina campeon de la Copa America 2021">
+                </div>
+                <iframe width="672" height="378" src="https://www.youtube.com/embed/AsIWOhCXZok" title="Argentina 2 x 1 Inglaterra ● Copa del Mundo 1986 Resumen y Goles HD" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
 
         </section>
     </main>
+    <div class="conte">
+        <fieldset class="container">
+            <legend class="container__titulo">Informacion Personal</legend>
+            
+            <p class="container__titu">Completa el siguiente formulario.</p>
+            <form action="" class="formu">
+                <p>Nombre:</p>
+                <input type="text" placeholder="Nombre">
+                
+                <p>Apellido:</p> 
+                <input type="text" placeholder="Apellido">
+            
+                <div class="flex">
+                <p class="talle">Talle:</p> 
+                    <select>
+                        <option value="">Large</option>
+                        <option value="">Medio</option>
+                        <option value="">Short</option>
+                    </select>
+                </div>
+
+                <input class="boton" type="submit" value="Enviar">
+            </form>
+       
+        </fieldset>
+    </div>
 </body>
 </html>
