@@ -1,0 +1,140 @@
+
+.navbar-expand-lg{
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.home{
+    margin-left: 370px;
+}
+
+a{
+    text-decoration: none;
+    color: #777;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.flex{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+#sobre-mi{
+    padding-top: 70px;
+    text-align: center;
+   
+}
+
+.botones{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor{
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+#hobbies{
+    padding: 20px;
+}
+
+.cajas{
+    width: 95%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+    gap: 2px;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+.titulos{
+    text-align: center;
+}
+
+#formacion{
+    background-color: #ccc;
+    padding: 10px;
+    height: 600px;
+}
+
+.formacion{
+    display: flex;
+    flex-direction: column;
+}
+
+.slide{
+    margin-top: 10px
+}
+
+.slide img{
+    height: 65vh;
+}
+
+#hobbies{
+    background-color: #555;
+}
+
+@media (max-width: 768px){
+    .cajas{
+        flex-direction: column;
+        align-items: center;
+        gap: 7px;
+    }
+
+}
+
+.tecno{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 30px 0;
+}
+
+.tecno_logo_img{
+    width: 150px;
+}
+
+
+#contacto{
+    background-color: #999;
+    padding-bottom: 20px;
+}
+
+.footer{
+   
+    background-color: #eee;
+    height: 60px;
+    padding: 10px;
+}
+
+.footer_titulo{
+    text-align: center;
+}
